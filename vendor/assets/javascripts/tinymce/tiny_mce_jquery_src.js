@@ -11699,7 +11699,6 @@ tinymce.create('tinymce.ui.Toolbar:tinymce.ui.Container', {
 				w.detachEvent('onunload', clr);
 				w = w.tinyMCE = w.tinymce = null; // IE leak
 			};
-f
 			// Manager commands
 			switch (c) {
 				case "mceFocus":
